@@ -12982,11 +12982,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MD FAISAL\\Desktop\\Core\\new\\onlineshop\\OnlineShop\\OnlineShop.csproj",
+      "projectUniqueName": "C:\\Users\\MD FAISAL\\Desktop\\Core\\onlineshop\\OnlineShop\\OnlineShop.csproj",
       "projectName": "OnlineShop",
-      "projectPath": "C:\\Users\\MD FAISAL\\Desktop\\Core\\new\\onlineshop\\OnlineShop\\OnlineShop.csproj",
+      "projectPath": "C:\\Users\\MD FAISAL\\Desktop\\Core\\onlineshop\\OnlineShop\\OnlineShop.csproj",
       "packagesPath": "C:\\Users\\MD FAISAL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MD FAISAL\\Desktop\\Core\\new\\onlineshop\\OnlineShop\\obj\\",
+      "outputPath": "C:\\Users\\MD FAISAL\\Desktop\\Core\\onlineshop\\OnlineShop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
