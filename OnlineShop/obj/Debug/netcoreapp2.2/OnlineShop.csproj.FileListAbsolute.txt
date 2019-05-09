@@ -104,3 +104,4 @@ C:\Users\MD FAISAL\Desktop\Core\new\onlineshop\OnlineShop\obj\Debug\netcoreapp2.
 C:\Users\MD FAISAL\Desktop\Core\new\onlineshop\OnlineShop\obj\Debug\netcoreapp2.2\OnlineShop.dll
 C:\Users\MD FAISAL\Desktop\Core\new\onlineshop\OnlineShop\obj\Debug\netcoreapp2.2\OnlineShop.pdb
 C:\Users\MD FAISAL\Desktop\Core\new\onlineshop\OnlineShop\obj\Debug\netcoreapp2.2\OnlineShop.csproj.CopyComplete
+C:\Users\MD FAISAL\Desktop\Core\onlineshop\OnlineShop\obj\Debug\netcoreapp2.2\Razor\Areas\Customer\Views\Home\Detail.g.cshtml.cs
