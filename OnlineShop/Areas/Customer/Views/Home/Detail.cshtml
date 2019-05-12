@@ -1,7 +1,24 @@
 ﻿@model OnlineShop.Models.Products
+
 @{
     ViewData["Title"] = "Details";
+
 }
+@using OnlineShop.Utility
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+
+    List<Products> products = HttpContextAccessor.HttpContext.Session.Get<List<Products>>("products");
+    Products product = null;
+    if (products != null)
+    {
+        product = products.FirstOrDefault(c => c.Id == Model.Id);
+    }
+
+}
+
+
 <br />
 
 <h2 class="text-info">Product Details</h2>
@@ -58,15 +75,23 @@
                 </div>
                 <span asp-validation-for="ProductTypeId" class="text-danger"></span>
             </div>
-            
+
             <div class="form-group row">
                 <div class="col-4">
 
                 </div>
                 <div class="col-8">
-                   <input type="submit" class="btn btn-info form-control" value="Add to Cart"/>
+                    @if (product != null)
+                    {
+                        <button type="submit" class="btn btn-danger form-control" asp-action="Remove" asp-route-id="@Model.Id">Remove to Cart</button>
+                    }
+                    else
+                    {
+                        <input type="submit" class="btn btn-info form-control" value="Add to Cart" />
+                    }
+                    
                 </div>
-                
+
             </div>
             <div class="form-group">
                 <a asp-action="Index" class="btn btn-success">Back to List</a>
@@ -81,9 +106,9 @@
             }
             else
             {
-                <img src="~/Images/notinstock.jpg" width="200px" height="50px"/>
+                <img src="~/Images/notinstock.jpg" width="200px" height="50px" />
             }
-           
+
         </div>
 
     </div>
