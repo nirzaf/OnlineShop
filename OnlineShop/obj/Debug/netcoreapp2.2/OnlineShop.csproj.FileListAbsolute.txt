@@ -105,3 +105,5 @@ C:\Users\MD FAISAL\Desktop\Core\new\onlineshop\OnlineShop\obj\Debug\netcoreapp2.
 C:\Users\MD FAISAL\Desktop\Core\new\onlineshop\OnlineShop\obj\Debug\netcoreapp2.2\OnlineShop.pdb
 C:\Users\MD FAISAL\Desktop\Core\new\onlineshop\OnlineShop\obj\Debug\netcoreapp2.2\OnlineShop.csproj.CopyComplete
 C:\Users\MD FAISAL\Desktop\Core\onlineshop\OnlineShop\obj\Debug\netcoreapp2.2\Razor\Areas\Customer\Views\Home\Detail.g.cshtml.cs
+C:\Users\MD FAISAL\Desktop\Core\onlineshop\OnlineShop\obj\Debug\netcoreapp2.2\Razor\Areas\Customer\Views\Home\Cart.g.cshtml.cs
+C:\Users\MD FAISAL\Desktop\Core\onlineshop\OnlineShop\obj\Debug\netcoreapp2.2\Razor\Areas\Customer\Views\Order\Checkout.g.cshtml.cs
