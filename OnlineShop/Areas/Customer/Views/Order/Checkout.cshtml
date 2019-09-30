@@ -117,18 +117,16 @@
 
 @section Scripts{
     @{ await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-    
     <script>
         $(document).ready(function() {
             $("#OrderDate").datepicker({
-                "showAnim": "slide",
-                changeMonth:true,
+                showAnim: "slide",
+                changeMonth: true,
                 changeYear:true
-            }
-               );
+            });
         });
-        
     </script>
+  
 }
 
 
