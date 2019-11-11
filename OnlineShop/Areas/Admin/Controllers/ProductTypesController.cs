@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using OnlineShop.Data;
 using OnlineShop.Models;
@@ -9,6 +10,7 @@ using OnlineShop.Models;
 namespace OnlineShop.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles ="Super user")]
     public class ProductTypesController : Controller
     {
         private ApplicationDbContext _db;
@@ -17,6 +19,7 @@ namespace OnlineShop.Areas.Admin.Controllers
         {
             _db = db;
         }
+        [AllowAnonymous]
         public IActionResult Index()
         {
             //var data = _db.ProductTypes.ToList();
@@ -24,7 +27,7 @@ namespace OnlineShop.Areas.Admin.Controllers
         }
 
         //GET Create Action Method
-
+        
         public ActionResult Create()
         {
             return View();
@@ -48,7 +51,7 @@ namespace OnlineShop.Areas.Admin.Controllers
         }
 
         //GET Edit Action Method
-
+       
         public ActionResult Edit(int? id)
         {
             if(id==null)

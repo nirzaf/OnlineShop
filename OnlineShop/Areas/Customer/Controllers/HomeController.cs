@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OnlineShop.Data;
@@ -13,6 +14,7 @@ using X.PagedList;
 namespace OnlineShop.Controllers
 {
     [Area("Customer")]
+    
     public class HomeController : Controller
     {
         private ApplicationDbContext _db;
@@ -43,6 +45,7 @@ namespace OnlineShop.Controllers
 
         public ActionResult Detail(int? id)
         {
+            
             if(id==null)
             {
                 return NotFound();

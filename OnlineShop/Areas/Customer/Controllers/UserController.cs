@@ -21,6 +21,7 @@ namespace OnlineShop.Areas.Customer.Controllers
         }
         public IActionResult Index()
         {
+            var dd = _userManager.GetUserId(HttpContext.User);
             return View(_db.ApplicationUsers.ToList());
         }
 
@@ -37,6 +38,7 @@ namespace OnlineShop.Areas.Customer.Controllers
                 var result = await _userManager.CreateAsync(user, user.PasswordHash);
                 if (result.Succeeded)
                 {
+                    var isSaveRole = await _userManager.AddToRoleAsync(user, "User");
                     TempData["save"] = "User has been created successfully";
                     return RedirectToAction(nameof(Index));
                 }

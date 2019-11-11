@@ -5,7 +5,7 @@
     <UserSecretsId>aspnet-OnlineShop-45427504-1FEF-479E-BE33-BDBEE276A95A</UserSecretsId>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
     <ApplicationIcon />
-    <OutputType>WinExe</OutputType>
+
     <StartupObject />
   </PropertyGroup>
 
@@ -18,7 +18,7 @@
     <PackageReference Include="AlertifyJS" Version="1.11.2" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
     <PackageReference Include="X.PagedList.Mvc.Core" Version="7.6.0" />
   </ItemGroup>
 
