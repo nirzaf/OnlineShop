@@ -1,4 +1,4 @@
-﻿@using OnlineShop.Models;
+@using OnlineShop.Models;
 @model IEnumerable<Products>
 @{
     ViewData["Title"] = "Index";
@@ -85,7 +85,7 @@
             $('#myTable').DataTable({
                 dom: 'Bfrtip',
                 buttons: [
-                    'copy', 'csv', 'excel', 'pdf', 'print'
+                    'pageLength','copy', 'csv', 'excel', 'pdf', 'print'
                 ]
             });
         } );
