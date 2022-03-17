@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MD FAISAL\\Desktop\\Core\\onlineshop\\OnlineShop\\OnlineShop.csproj": {}
+    "E:\\Users\\Fazrin\\Source\\Repos\\OnlineShop\\OnlineShop\\OnlineShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MD FAISAL\\Desktop\\Core\\onlineshop\\OnlineShop\\OnlineShop.csproj": {
+    "E:\\Users\\Fazrin\\Source\\Repos\\OnlineShop\\OnlineShop\\OnlineShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MD FAISAL\\Desktop\\Core\\onlineshop\\OnlineShop\\OnlineShop.csproj",
+        "projectUniqueName": "E:\\Users\\Fazrin\\Source\\Repos\\OnlineShop\\OnlineShop\\OnlineShop.csproj",
         "projectName": "OnlineShop",
-        "projectPath": "C:\\Users\\MD FAISAL\\Desktop\\Core\\onlineshop\\OnlineShop\\OnlineShop.csproj",
-        "packagesPath": "C:\\Users\\MD FAISAL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MD FAISAL\\Desktop\\Core\\onlineshop\\OnlineShop\\obj\\",
+        "projectPath": "E:\\Users\\Fazrin\\Source\\Repos\\OnlineShop\\OnlineShop\\OnlineShop.csproj",
+        "packagesPath": "C:\\Users\\Fazrin\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\Fazrin\\Source\\Repos\\OnlineShop\\OnlineShop\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\MD FAISAL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Fazrin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {}
           }
         },
@@ -40,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "AlertifyJS": {
               "target": "Package",
@@ -72,10 +71,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
